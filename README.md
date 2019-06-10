@@ -8,6 +8,21 @@ Attempting to build a RESTFUL API using Django Rest Framework, centered around c
 
 # Screens
 
+### Root
+
+![Root View Image](https://github.com/danielc92/django-processor-restapi/blob/master/screens/api-root.jpg)
+
+### Manufacturer List
+
+![Manufacturer List Image](https://github.com/danielc92/django-processor-restapi/blob/master/screens/manufacturer-list.jpg)
+
+### Product Series List
+
+![Product Series List Image](https://github.com/danielc92/django-processor-restapi/blob/master/screens/product-series-list.jpg)
+
+### Processor List
+
+![Processor List Image](https://github.com/danielc92/django-processor-restapi/blob/master/screens/processor-list.jpg)
 
 # Setup
 **How to obtain this repository:**
