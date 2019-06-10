@@ -12,7 +12,7 @@ class ProcessorSerializer(s.ModelSerializer):
 
 class ProductSeriesSerializer(s.ModelSerializer):
     class Meta:
-        model = Processors
+        model = ProductSeries
         fields = ('id', 'model_series','created_at', 'modified_at')
 
 
