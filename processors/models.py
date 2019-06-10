@@ -7,12 +7,17 @@ class Manufacturer(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     modified_at = models.DateTimeField(auto_now=True)
 
+    def __str__(self):
+        return self.manufacturer
+
 class ProductSeries(models.Model):
     model_series = models.CharField(max_length=255)
 
     created_at = models.DateTimeField(auto_now_add=True)
     modified_at = models.DateTimeField(auto_now=True)
 
+    def __str__(self):
+        return self.model_series
 
 # Create your models here.
 class Processors(models.Model):
@@ -29,4 +34,7 @@ class Processors(models.Model):
 
     created_at = models.DateTimeField(auto_now_add=True)
     modified_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.model_name
     
