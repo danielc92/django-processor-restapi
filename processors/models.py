@@ -20,6 +20,8 @@ class Processors(models.Model):
     thread_count = models.IntegerField()
     tdp_watts = models.IntegerField()
     model_name =  models.CharField(max_length=255)
+    model_series = models.ForeignKey(ProductSeries, on_delete=models.CASCADE)
+    manufacturer = models.ForeignKey(Manufacturer, on_delete=models.CASCADE)
 
     rrp_usd = models.DecimalField(max_digits=10, decimal_places=2)
     base_clock = models.DecimalField(max_digits=10, decimal_places=2)
