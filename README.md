@@ -6,6 +6,23 @@ Attempting to build a RESTFUL API using Django Rest Framework, centered around c
 - Understanding of HTTP/S requests (GET, POST, PUT, PATCH, DELETE)
 - Understanding of relational database modelling / Django Model API
 
+
+# Setup
+**How to obtain this repository:**
+```sh
+git clone https://github.com/danielc92/django-processor-restapi.git
+```
+**Modules/dependencies:**
+- `Django==2.2.2`
+- `djangorestframework==3.9.4`
+
+**Running the development server**
+
+```sh
+# upon successful start up visit http://localhost:8000/
+python manage.py runserver
+```
+
 # Screens
 
 ### Root
@@ -24,14 +41,6 @@ Attempting to build a RESTFUL API using Django Rest Framework, centered around c
 
 ![Processor List Image](https://github.com/danielc92/django-processor-restapi/blob/master/screens/processor-list.jpg)
 
-# Setup
-**How to obtain this repository:**
-```sh
-git clone https://github.com/danielc92/django-processor-restapi.git
-```
-**Modules/dependencies:**
-- `Django==2.2.2`
-- `djangorestframework==3.9.4`
 
 # Tests
 - Tested inserting data via API
